@@ -7,12 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27299BA517A3C05200F1B241 /* NCSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 27299BA317A3C05200F1B241 /* NCSearchBar.h */; };
+		27299BA617A3C05200F1B241 /* NCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27299BA417A3C05200F1B241 /* NCSearchBar.m */; };
+		27299BDC17A3F1D100F1B241 /* mirror.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27299BDB17A3F1D100F1B241 /* mirror.png */; };
+		272D9FCD17A1555400439280 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D9FCC17A1555400439280 /* CoreGraphics.framework */; };
+		272D9FCF17A1555F00439280 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D9FCE17A1555F00439280 /* QuartzCore.framework */; };
+		272D9FD417A155A200439280 /* SIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 272D9FD217A155A200439280 /* SIAlertView.h */; };
+		272D9FD517A155A200439280 /* SIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D9FD317A155A200439280 /* SIAlertView.m */; };
+		272D9FEA17A2549B00439280 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D9FE917A2549B00439280 /* CoreLocation.framework */; };
+		272D9FEC17A254A200439280 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D9FEB17A254A200439280 /* MapKit.framework */; };
 		273D41B2178C140500CD8E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273D41B1178C140500CD8E48 /* Foundation.framework */; };
 		273D41B4178C140500CD8E48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273D41B3178C140500CD8E48 /* UIKit.framework */; };
 		273D41BF178C140500CD8E48 /* NCSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D41BE178C140500CD8E48 /* NCSearchController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		27299BDA17A3F1A600F1B241 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				27299BDC17A3F1D100F1B241 /* mirror.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2725AF6317A7875000A2D355 /* tmp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tmp.plist; path = Package/System/Library/WeeAppPlugins/NCSearch.bundle/tmp.plist; sourceTree = "<group>"; };
+		27299BA317A3C05200F1B241 /* NCSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSearchBar.h; sourceTree = "<group>"; };
+		27299BA417A3C05200F1B241 /* NCSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSearchBar.m; sourceTree = "<group>"; };
+		27299BDB17A3F1D100F1B241 /* mirror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror.png; path = ../mirror.png; sourceTree = "<group>"; };
+		272D9FCC17A1555400439280 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		272D9FCE17A1555F00439280 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		272D9FD117A155A200439280 /* SIAlertView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SIAlertView.bundle; sourceTree = "<group>"; };
+		272D9FD217A155A200439280 /* SIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIAlertView.h; sourceTree = "<group>"; };
+		272D9FD317A155A200439280 /* SIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIAlertView.m; sourceTree = "<group>"; };
+		272D9FE917A2549B00439280 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		272D9FEB17A254A200439280 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		273D41AE178C140500CD8E48 /* NCSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = NCSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D41B1178C140500CD8E48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		273D41B3178C140500CD8E48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -26,6 +59,8 @@
 		273D41C5178C140500CD8E48 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Package/System/Library/WeeAppPlugins/NCSearch.bundle/InfoPlist.strings; sourceTree = "<group>"; };
 		273D41C6178C140500CD8E48 /* WeeAppBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WeeAppBackground@2x.png"; path = "Package/System/Library/WeeAppPlugins/NCSearch.bundle/WeeAppBackground@2x.png"; sourceTree = "<group>"; };
 		273D41C7178C140500CD8E48 /* WeeAppBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeeAppBackground.png; path = Package/System/Library/WeeAppPlugins/NCSearch.bundle/WeeAppBackground.png; sourceTree = "<group>"; };
+		27C8FC0F1795892C00D12724 /* postinst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		27C8FC101795892C00D12724 /* postrm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = postrm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272D9FEC17A254A200439280 /* MapKit.framework in Frameworks */,
+				272D9FEA17A2549B00439280 /* CoreLocation.framework in Frameworks */,
+				272D9FCF17A1555F00439280 /* QuartzCore.framework in Frameworks */,
+				272D9FCD17A1555400439280 /* CoreGraphics.framework in Frameworks */,
 				273D41B2178C140500CD8E48 /* Foundation.framework in Frameworks */,
 				273D41B4178C140500CD8E48 /* UIKit.framework in Frameworks */,
 			);
@@ -41,9 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272D9FD017A1557400439280 /* SIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				272D9FD117A155A200439280 /* SIAlertView.bundle */,
+				272D9FD217A155A200439280 /* SIAlertView.h */,
+				272D9FD317A155A200439280 /* SIAlertView.m */,
+			);
+			name = SIAlertView;
+			sourceTree = "<group>";
+		};
 		273D41A4178C140500CD8E48 = {
 			isa = PBXGroup;
 			children = (
+				27299BA317A3C05200F1B241 /* NCSearchBar.h */,
+				27299BA417A3C05200F1B241 /* NCSearchBar.m */,
+				272D9FD017A1557400439280 /* SIAlertView */,
 				273D41B5178C140500CD8E48 /* NCSearch */,
 				273D41B0178C140500CD8E48 /* Frameworks */,
 				273D41AF178C140500CD8E48 /* Products */,
@@ -61,6 +113,10 @@
 		273D41B0178C140500CD8E48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				272D9FE917A2549B00439280 /* CoreLocation.framework */,
+				272D9FEB17A254A200439280 /* MapKit.framework */,
+				272D9FCE17A1555F00439280 /* QuartzCore.framework */,
+				272D9FCC17A1555400439280 /* CoreGraphics.framework */,
 				273D41B1178C140500CD8E48 /* Foundation.framework */,
 				273D41B3178C140500CD8E48 /* UIKit.framework */,
 			);
@@ -90,6 +146,8 @@
 		273D41B7178C140500CD8E48 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
+				27C8FC0F1795892C00D12724 /* postinst */,
+				27C8FC101795892C00D12724 /* postrm */,
 				273D41B8178C140500CD8E48 /* control.txt */,
 				273D41B9178C140500CD8E48 /* control */,
 			);
@@ -132,6 +190,8 @@
 		273D41C3178C140500CD8E48 /* ___PACKAGENAME___ */ = {
 			isa = PBXGroup;
 			children = (
+				2725AF6317A7875000A2D355 /* tmp.plist */,
+				27299BDB17A3F1D100F1B241 /* mirror.png */,
 				273D41C4178C140500CD8E48 /* Info.plist */,
 				273D41C5178C140500CD8E48 /* InfoPlist.strings */,
 				273D41C6178C140500CD8E48 /* WeeAppBackground@2x.png */,
@@ -147,6 +207,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272D9FD417A155A200439280 /* SIAlertView.h in Headers */,
+				27299BA517A3C05200F1B241 /* NCSearchBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +223,7 @@
 				273D41AA178C140500CD8E48 /* Frameworks */,
 				273D41AB178C140500CD8E48 /* Headers */,
 				273D41AC178C140500CD8E48 /* ShellScript */,
+				27299BDA17A3F1A600F1B241 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -218,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				273D41BF178C140500CD8E48 /* NCSearchController.m in Sources */,
+				272D9FD517A155A200439280 /* SIAlertView.m in Sources */,
+				27299BA617A3C05200F1B241 /* NCSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +359,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
-				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevDevice = 192.168.1.108;
+				iOSOpenDevInstallOnAnyBuild = YES;
 				iOSOpenDevInstallOnProfiling = YES;
 				iOSOpenDevRespringOnInstall = YES;
 				iOSOpenDevUsePackageVersionPList = YES;
@@ -316,8 +381,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
-				iOSOpenDevDevice = "";
-				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevDevice = 192.168.1.108;
+				iOSOpenDevInstallOnAnyBuild = YES;
 				iOSOpenDevInstallOnProfiling = YES;
 				iOSOpenDevRespringOnInstall = YES;
 				iOSOpenDevUsePackageVersionPList = YES;
@@ -343,6 +408,7 @@
 				273D41CC178C140500CD8E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

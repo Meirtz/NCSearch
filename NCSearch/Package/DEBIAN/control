@@ -1,17 +1,17 @@
-Package: GF0rce-.NCSearch
+Package: NCSearch
 Name: NCSearch
-Version: 0.1-1
-Description: 
+Version: 1.0-1
+Description: Search Bars on Notification center.
 Section: Addons (NotificationCenter)
 Depends: firmware (>= 5.0)
 Conflicts: 
 Replaces: 
 Priority: optional
 Architecture: iphoneos-arm
-Author: Meirtz
+Author: Meirtz Suu BlueCocoa <593865730@qq.com>
 dev: 
 Homepage: 
 Depiction: 
-Maintainer: 
+Maintainer: sa1varmy <we.are.sa1v.army@gmail.com>
 Icon: 
 

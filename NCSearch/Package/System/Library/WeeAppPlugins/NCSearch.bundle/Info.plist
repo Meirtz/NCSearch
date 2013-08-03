@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleName</key>
 	<string>NCSearch Wee App</string>
+	<key>isFirst</key>
+	<string>YES</string>
 	<key>CFBundleDisplayName</key>
 	<string>NCSearch_Widget</string>
 	<key>CFBundleExecutable</key>
