@@ -338,7 +338,7 @@
         
         NSString *plistPath = @"/System/Library/WeeAppPlugins/NCSearch.bundle/Info.plist";
         NSMutableDictionary *plistData = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
-        if ([plistData valueForKey:@"isFirst"] == nil) {
+        /*if ([plistData valueForKey:@"isFirst"] == nil) {
             //do something
             [self showCoolAlert:@"first"];
             [plistData setValue:@"NO" forKey:@"isFirst"];
@@ -354,7 +354,7 @@
                 [plistData setValue:@"NO" forKey:@"isFirst"];
                 [plistData writeToFile:plistPath atomically:YES];
             }
-        }
+        }*/
     }
     
     return YES;
@@ -834,12 +834,12 @@
         
     }
     
-    //NSDictionary *data1 = [[NSDictionary alloc] initWithContentsOfFile:kPrefs_Path];
-    if ([data valueForKey:@"Browser"] == nil)
+    NSDictionary *data2 = [[NSDictionary alloc] initWithContentsOfFile:kPrefs_Path];
+    if ([data2 valueForKey:@"Browser"] == nil)
     {
         browser = @"http";
     }
-    else if ( [[data valueForKey:@"Browser"] integerValue] == 1)
+    else if ( [[data2 valueForKey:@"Browser"] integerValue] == 1)
     {
         if ( [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"googlechrome://www.google.com"]] == YES )
         {
@@ -850,7 +850,7 @@
             browser = @"http";
         }
     }
-    else if ( [[data valueForKey:@"Browser"] integerValue] == 2 )
+    else if ( [[data2 valueForKey:@"Browser"] integerValue] == 2 )
     {
         
         if ( [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"ucweb://www.google.com"]] == YES )
@@ -866,7 +866,7 @@
             browser =@"http";
         }
     }
-    else if ( [[data valueForKey:@"Browser"] integerValue] == 3 )
+    else if ( [[data2 valueForKey:@"Browser"] integerValue] == 3 )
     {
        
         if ( [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"ucbrowser://www.google.com"]] == YES )
@@ -882,7 +882,7 @@
             browser =@"http";
         }
     }
-    else if ( [[data valueForKey:@"Browser"] integerValue] == 4 )
+    else if ( [[data2 valueForKey:@"Browser"] integerValue] == 4 )
     {
         if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"oftp://www.google.com"]] == YES) {
             browser = @"ohttp";
@@ -897,7 +897,7 @@
         browser = @"http";
     }
     
-    if ( [[data valueForKey:@"Pages Dots"] integerValue] == 0 ) {
+    if ( [[data2 valueForKey:@"Pages Dots"] integerValue] == 0 ) {
         [self.view addSubview:searchPages];
     }
     else {
@@ -936,6 +936,11 @@
     
     
 }
+
+
+
+
+@end
 
 
 
